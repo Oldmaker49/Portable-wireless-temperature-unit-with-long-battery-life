@@ -25,7 +25,11 @@ on/off slide switch
   
 ![image](https://github.com/user-attachments/assets/e2c76261-1232-4d48-8082-a891044f0df6)
 
-![image](https://github.com/user-attachments/assets/b15cd078-ba87-47cb-afa7-ac98e6563985)
+![image](https://github.com/user-attachments/assets/b15cd078-ba87-47cb-afa7-ac98e6563985)  
+
+![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)
+
+
 
 Tx Low power Performance:
 TX low power consumption - e.g new batteries July 2023 4.75v  - continuous running transmit temperature reading 16s intervals
