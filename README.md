@@ -28,7 +28,9 @@ on/off slide switch
 
 ![image](https://github.com/user-attachments/assets/b15cd078-ba87-47cb-afa7-ac98e6563985)  
 
-![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)  
+![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)    
+
+![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
 
 [MPU_Wiring.docx](https://github.com/user-attachments/files/21076624/MPU_Wiring.docx)  
 
