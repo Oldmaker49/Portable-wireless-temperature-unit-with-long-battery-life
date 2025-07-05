@@ -27,8 +27,7 @@ on/off slide switch
 
 ![image](https://github.com/user-attachments/assets/b15cd078-ba87-47cb-afa7-ac98e6563985)  
 
-![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)
-
+![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)  
 
 
 Tx Low power Performance:
@@ -38,7 +37,10 @@ Current taken in powerdown phase about 7uA for approx 16 seconds (mpu + wireless
 Current taken mpu active = 3.5mA for 5ms
 Current taken mpu active + wireless transmit = 93.5 mA for 2ms  
 4 July 2025 Battery voltage 4.08v - 2 years of continouous operation so far!  
-average current during 16s cycle about 20uA
+average current during 16s cycle about 20uA  
+
+[MPU_Wiring.docx](https://github.com/user-attachments/files/21076624/MPU_Wiring.docx)
+
 Assume 900mAh for AAA battery
 Battery lifetime = 0.9Ah/20uA = 45.665 hours = 5.7 years
 
