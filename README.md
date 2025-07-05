@@ -1,27 +1,37 @@
 # Portable-Long-range-Low-Power-Temperature-Monitor
 Sends temperature via 2.4Ghz radio link to display device. Remote temperature transmitter unit optimized for low power consumption for long battery life
 LOW POWER WIRELESS TEMPERATURE TX-RX
+Temperature Sensor: BMP280  
+
+![TX_RX](https://github.com/user-attachments/assets/b56367e7-31a7-442e-a9d5-376dda5b670c)
 
 OVERVIEW
 Send temerature reading using 2.4Mhz wireless link to receiver with temperature display
 
-TRANSMITTER
-MPU: Arduino Pro-Mini 3.3v Modified as follows:-  
+TRANSMITTER  
+
+ ![Tx_inside](https://github.com/user-attachments/assets/32a1fb4f-9bdb-45ae-bb1a-054655ce9447)
+
+MPU: Arduino Pro-Mini 3.3v Modified as follows:- 
+
 MPU power led removed, onboard voltage regulator replaced with HT7333 Low drop-out low quiecent current 3,3v voltage regulator  
 See Wiring.docx below:
 See voltage regulator specification below:
 
 Wireless transmiiter: NRF24 + PA - Channel 110
-Temperature Sensor: BMP280
+
 Battery 3xAAA
 Data sent 16s intervals
 
-RECEIVER
+RECEIVER  
+![Rx_inside](https://github.com/user-attachments/assets/df744bee-0d81-4379-abdf-e64b796115db)
+
 MPU: SEEED XIAO SAMD21
 Wireless Receiver : NRF24 + PA - Channel 110
 Display: OLED 1.3inch I2C SSH1106
 Battery: NOKIA LiPo + TP4056 charging module  
 on/off slide switch
+
 3xAAA batteries  
   
 ![image](https://github.com/user-attachments/assets/e2c76261-1232-4d48-8082-a891044f0df6)
