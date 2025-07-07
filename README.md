@@ -2,6 +2,7 @@
 Sends temperature via 2.4Ghz radio link to display device at 16s intervals.  
 Remote temperature transmitter unit optimized for low power consumption for long battery life.  
 Estimated battery life greater that 3 years with 3xAAA batteries.  
+Tranmitter range 100m (estimated).
 
 
 LOW POWER WIRELESS TEMPERATURE TX-RX
@@ -17,29 +18,23 @@ TRANSMITTER
  ![TX_inside_annotated](https://github.com/user-attachments/assets/4cded369-e629-4aa9-8bef-5d520a85768e)
 
 MPU: Arduino Pro-Mini 3.3v Modified as follows:- 
-
-
-
-
 MPU power led removed, onboard voltage regulator replaced with HT7333 Low drop-out low quiecent current 3,3v voltage regulator  
 See Wiring.docx below:
 See voltage regulator specification below:
-
 Wireless transmiiter: NRF24 + PA - Channel 110
-
 Battery 3xAAA
 Data sent 16s intervals
 
 RECEIVER  
 ![RX_insdide_annotated](https://github.com/user-attachments/assets/d483b803-9c29-44d7-9a22-e13f7696d73d)
 
-MPU: SEEED XIAO SAMD21
+MPU: SEEED XIAO SAMD21 (chosen for small size could be any other MPU)  
 Wireless Receiver : NRF24 + PA - Channel 110
 Display: OLED 1.3inch I2C SSH1106
-Battery: NOKIA LiPo + TP4056 charging module  
+Battery: NOKIA LiPo  (or any other LiPo battery)
+TP4056 charging module  
 on/off slide switch
 
-3xAAA batteries  
   
 ![image](https://github.com/user-attachments/assets/e2c76261-1232-4d48-8082-a891044f0df6)
 
@@ -48,8 +43,10 @@ on/off slide switch
 ![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)    
 
 ![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
-
+# Voltage regulator details #
 [MPU_Wiring.docx](https://github.com/user-attachments/files/21076624/MPU_Wiring.docx)  
+
+
 
 Tx Low power Performance:
 TX low power consumption - e.g new batteries July 2023 4.75v  - continuous running transmit temperature reading 16s intervals
