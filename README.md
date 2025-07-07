@@ -13,10 +13,11 @@ OVERVIEW
 Send temerature reading using 2.4Mhz wireless link to receiver with temperature display
 
 TRANSMITTER  
-![TX_inside_annotated](https://github.com/user-attachments/assets/0a40dc44-be41-4944-a1bb-c1ebeab36b7f)
- 
+
+ ![TX_inside_annotated](https://github.com/user-attachments/assets/4cded369-e629-4aa9-8bef-5d520a85768e)
 
 MPU: Arduino Pro-Mini 3.3v Modified as follows:- 
+
 
 
 
