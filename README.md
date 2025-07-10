@@ -15,36 +15,32 @@ Send temerature reading using 2.4Mhz wireless link to receiver with temperature 
 
 TRANSMITTER  
 
- ![TX_inside_annotated](https://github.com/user-attachments/assets/4cded369-e629-4aa9-8bef-5d520a85768e)
+
 
 MPU: Arduino Pro-Mini 3.3v Modified as follows:- 
-MPU power led removed, onboard voltage regulator replaced with HT7333 Low drop-out low quiecent current 3,3v voltage regulator  
+MPU power led removed, onboard voltage regulator replaced with MCP1700 3.3v Low drop-out low quiecent current 3,3v voltage regulator.
+Regulator quiescent current 1.6uA, Droppout voltage typically 0.15V.
 See Wiring.docx below:
-See voltage regulator specification below:
 Wireless transmiiter: NRF24 + PA - Channel 110
 Battery 3xAAA
+100uF electrolytic capacitor
 Data sent 16s intervals
+![TX_inside_annotated](https://github.com/user-attachments/assets/fa08e3d8-2043-4f14-9871-b44c54c929a8)
 
 RECEIVER  
-![RX_insdide_annotated](https://github.com/user-attachments/assets/d483b803-9c29-44d7-9a22-e13f7696d73d)
 
 MPU: SEEED XIAO SAMD21 (chosen for small size could be any other MPU)  
 Wireless Receiver : NRF24 + PA - Channel 110
 Display: OLED 1.3inch I2C SSH1106
 Battery: NOKIA LiPo  (or any other LiPo battery)
 TP4056 charging module  
-on/off slide switch
+on/off slide switch.
 
-  
-![image](https://github.com/user-attachments/assets/e2c76261-1232-4d48-8082-a891044f0df6)
-
-![image](https://github.com/user-attachments/assets/b15cd078-ba87-47cb-afa7-ac98e6563985)  
 
 ![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)    
 
 ![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
-# Voltage regulator details #
-[MPU_Wiring.docx](https://github.com/user-attachments/files/21076624/MPU_Wiring.docx)  
+
 
 
 
@@ -56,6 +52,7 @@ Current taken mpu active = 3.5mA for 5ms
 Current taken mpu active + wireless transmit = 93.5 mA for 2ms  
 4 July 2025 Battery voltage 4.08v - 2 years of continouous operation so far!  
 average current during 16s cycle about 20uA  
+[MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)
 
 
 
