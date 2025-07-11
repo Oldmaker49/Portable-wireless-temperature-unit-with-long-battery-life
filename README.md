@@ -4,7 +4,7 @@
 ## Code compiled using Arduino IDE ##
 Sends temperature via 2.4Ghz radio link to display device at 16s intervals.  
 Remote temperature transmitter unit optimized for low power consumption for long battery life.  
-Estimated battery life greater that 3 years with 3xAAA batteries.  
+Estimated battery life greater than 3 years with 3xAAA batteries.  
 Tranmitter range 100m (estimated).  
 
 
