@@ -30,7 +30,9 @@ Battery holder: https://www.ebay.co.uk/itm/121729965773?var=420728433658
 100uF electrolytic capacitor  
 Case: https://www.ebay.co.uk/itm/404972147296?var=675019102993    
 PCB prototype board 5x7cm: https://www.ebay.co.uk/itm/265204441812?var=565078226213  
-Data sent 16s intervals    
+Data sent 16s intervals   
+NOTE: Potential divider to measure the Battery voltage is connected to MPU pin A1  
+The voltage reading is transmitted but not displayed on the receiver (TODO) 
 See Wiring.docx below:      
 [MPU_Wiring.docx](https://github.com/user-attachments/files/21186516/MPU_Wiring.docx)
 
@@ -73,6 +75,6 @@ Assume 900mAh for AAA battery
 Battery lifetime = 0.9Ah/20uA = 45.665 hours = 5.7 years
 
 ## SOFTWARE VERSIONS ##
-Receiver: NRF24_Rx_XIAO_Released_V1   
-Transmitter: NRF24_TX_Released_V1  
+Receiver: NRF24_Rx_XIAO_V1   
+Transmitter: NRF24_Tx_V1  
 
