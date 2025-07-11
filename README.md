@@ -45,9 +45,9 @@ See Wiring.docx below:
 
 MPU: SEEED XIAO SAMD21 (chosen for small size could be any other MPU)    
 Wireless Receiver : NRF24 + PA - Channel 110  
-Display: OLED 1.3inch I2C SSH1106  
+Display: OLED 1.3inch I2C SSH1106 : https://hobbycomponents.com/displays/621-3-sh1106-uoled-display-module-white   
 Battery: NOKIA LiPo  (or any other LiPo battery)  
-TP4056 charging module    
+TP4056 LiPo charging module: https://hobbycomponents.com/power/170-mini-lithium-battery-5v-usb-1a-charging-board      
 on/off slide switch.  
 
 
