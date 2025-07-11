@@ -1,4 +1,4 @@
-# Portable Wireless Temperature Unit and Monitor with Long Battery Life #
+# Portable Long Range Wireless Temperature Unit and Monitor with Long Battery Life #
 Sends temperature via 2.4Ghz radio link to display device at 16s intervals.  
 Remote temperature transmitter unit optimized for low power consumption for long battery life.  
 Estimated battery life greater that 3 years with 3xAAA batteries.  
