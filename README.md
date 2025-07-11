@@ -1,19 +1,19 @@
 # Portable Long Range Wireless Temperature Unit and Monitor with Long Battery Life #
+## Range upto 100m ## 
+## Remote temperature unit battery life 2 - 3 years ##   
+## Code compiled using Arduino IDE ##
 Sends temperature via 2.4Ghz radio link to display device at 16s intervals.  
 Remote temperature transmitter unit optimized for low power consumption for long battery life.  
 Estimated battery life greater that 3 years with 3xAAA batteries.  
 Tranmitter range 100m (estimated).  
 
-Code compiled using Arduino IDE
 
 
-## LOW POWER WIRELESS TEMPERATURE TX-RX ##
  
 
 ![TX_RX](https://github.com/user-attachments/assets/b56367e7-31a7-442e-a9d5-376dda5b670c)
 
-OVERVIEW
-Send temerature reading using 2.4Mhz wireless link to receiver with temperature display
+
 
 ## TRANSMITTER  ##
 
@@ -21,10 +21,12 @@ Send temerature reading using 2.4Mhz wireless link to receiver with temperature 
 
 MPU: Arduino Pro-Mini 3.3v Modified as follows:-   
 MPU power led removed, onboard voltage regulator replaced with MCP1700 3.3v Low drop-out low quiecent current 3,3v voltage regulator.  
-Regulator quiescent current 1.6uA, Droppout voltage typically 0.15V.  
+Regulator quiescent current 1.6uA, Dropout voltage typically 0.15V.  
 Wireless transmiiter: NRF24 + PA - Channel 110  
 Battery 3xAAA  
 100uF electrolytic capacitor  
+Case: https://www.ebay.co.uk/itm/404972147296?var=675019102993  
+
 Data sent 16s intervals  
 See Wiring.docx below:      
 [MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)  
