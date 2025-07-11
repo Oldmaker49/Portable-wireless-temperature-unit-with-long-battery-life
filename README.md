@@ -27,8 +27,8 @@ Wireless transmiiter: NRF24 + PA - Channel 110
 Battery 3xAAA  
 Battery holder: 
 100uF electrolytic capacitor  
-Case: https://www.ebay.co.uk/itm/404972147296?var=675019102993  
-
+Case: https://www.ebay.co.uk/itm/404972147296?var=675019102993    
+PCB prototype board 5x7cm: https://www.ebay.co.uk/itm/265204441812?var=565078226213
 Data sent 16s intervals  
 See Wiring.docx below:      
 [MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)  
