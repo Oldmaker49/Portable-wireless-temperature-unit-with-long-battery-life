@@ -1,8 +1,10 @@
-# Portable-Long-range-Low-Power-Temperature-Monitor
+# Portable Wireless Temperature Unit and Monitor with Long Battery Life #
 Sends temperature via 2.4Ghz radio link to display device at 16s intervals.  
 Remote temperature transmitter unit optimized for low power consumption for long battery life.  
 Estimated battery life greater that 3 years with 3xAAA batteries.  
-Tranmitter range 100m (estimated).
+Tranmitter range 100m (estimated).  
+
+Code compiled using Arduino IDE
 
 
 ## LOW POWER WIRELESS TEMPERATURE TX-RX ##
@@ -13,7 +15,7 @@ Tranmitter range 100m (estimated).
 OVERVIEW
 Send temerature reading using 2.4Mhz wireless link to receiver with temperature display
 
-TRANSMITTER  
+## TRANSMITTER  ##
 
 
 
@@ -66,5 +68,5 @@ Battery lifetime = 0.9Ah/20uA = 45.665 hours = 5.7 years
 
 ## SOFTWARE VERSIONS ##
 Receiver: NRF24_Rx_XIAO_Released_V1   
-Tansmitter: NRF24_TX_Released_V1  
+Transmitter: NRF24_TX_Released_V1  
 
