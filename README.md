@@ -60,9 +60,9 @@ Current taken mpu active = 3.5mA for 5ms
 Current taken mpu active + wireless transmit = 93.5 mA for 2ms  
 Average current during 16s cycle: 20uA  
 Battery life test:  
-July 2023 4.75v  - continuous running transmit temperature reading 16s intervals
-March 2024 4.374v.
-July 2025 4.08v - so far 2 years continuous operation  
+July 2023 4.75v  - continuous running transmit temperature reading 16s intervals  
+March 2024 4.374v.  
+July 2025 4.08v - so far 2 years continuous operation    
 Assume 900mAh for AAA battery
 Battery lifetime = 0.9Ah/20uA = 45.665 hours = 5.7 years
 
