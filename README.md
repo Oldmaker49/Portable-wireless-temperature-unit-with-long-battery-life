@@ -21,9 +21,11 @@ Tranmitter range 100m (estimated).
 
 MPU: Arduino Pro-Mini 3.3v Modified as follows:-   
 MPU power led removed, onboard voltage regulator replaced with MCP1700 3.3v Low drop-out low quiecent current 3,3v voltage regulator.  
+Voltage regulator: https://www.ebay.co.uk/itm/234899648343  
 Regulator quiescent current 1.6uA, Dropout voltage typically 0.15V.  
 Wireless transmiiter: NRF24 + PA - Channel 110  
 Battery 3xAAA  
+Battery holder: 
 100uF electrolytic capacitor  
 Case: https://www.ebay.co.uk/itm/404972147296?var=675019102993  
 
