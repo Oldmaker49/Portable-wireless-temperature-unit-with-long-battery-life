@@ -23,7 +23,8 @@ MPU: Arduino Pro-Mini 3.3v Modified as follows:-
 MPU power led removed, onboard voltage regulator replaced with MCP1700 3.3v Low drop-out low quiecent current 3,3v voltage regulator.  
 Regulator quiescent current 1.6uA, Dropout voltage typically 0.15V.  
 Voltage regulator: https://www.ebay.co.uk/itm/234899648343  
-Wireless transmiiter: NRF24 + PA - Channel 110  
+Wireless transmiiter: NRF24 + PA - Channel 110 : https://www.ebay.co.uk/itm/203830082867  
+BMP280 temperature sensor: https://www.ebay.co.uk/itm/303589878440  
 Battery 3xAAA  
 Battery holder: https://www.ebay.co.uk/itm/121729965773?var=420728433658  
 100uF electrolytic capacitor  
