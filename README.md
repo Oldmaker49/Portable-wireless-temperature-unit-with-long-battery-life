@@ -27,9 +27,11 @@ Data sent 16s intervals
 See Wiring.docx below:      
 [MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)
 
-![TX_inside_annotated](https://github.com/user-attachments/assets/fa08e3d8-2043-4f14-9871-b44c54c929a8)
-![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)    
+![TX_inside_annotated](https://github.com/user-attachments/assets/fa08e3d8-2043-4f14-9871-b44c54c929a8)  
 
+![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)     
+
+![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
 
 RECEIVER  
 
@@ -39,7 +41,7 @@ Display: OLED 1.3inch I2C SSH1106
 Battery: NOKIA LiPo  (or any other LiPo battery)
 TP4056 charging module  
 on/off slide switch.
-![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
+
 
 
 
