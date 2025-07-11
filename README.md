@@ -5,8 +5,8 @@ Estimated battery life greater that 3 years with 3xAAA batteries.
 Tranmitter range 100m (estimated).
 
 
-LOW POWER WIRELESS TEMPERATURE TX-RX
-Temperature Sensor: BMP280  
+## LOW POWER WIRELESS TEMPERATURE TX-RX ##
+ 
 
 ![TX_RX](https://github.com/user-attachments/assets/b56367e7-31a7-442e-a9d5-376dda5b670c)
 
@@ -56,7 +56,7 @@ TX current consumption:
 Current taken in powerdown phase about 7uA for approx 16 seconds (mpu + wireless off)  
 Current taken mpu active = 3.5mA for 5ms  
 Current taken mpu active + wireless transmit = 93.5 mA for 2ms  
-Average current during 16s cycle: 20uA
+Average current during 16s cycle: 20uA  
 Battery life test:  
 July 2023 4.75v  - continuous running transmit temperature reading 16s intervals
 March 2024 4.374v.
@@ -65,6 +65,6 @@ Assume 900mAh for AAA battery
 Battery lifetime = 0.9Ah/20uA = 45.665 hours = 5.7 years
 
 ## SOFTWARE VERSIONS ##
-NRF24_Rx_XIAO_Released_V1
-NRF24_TX_Released_V1
+Receiver: NRF24_Rx_XIAO_Released_V1   
+Tansmitter: NRF24_TX_Released_V1  
 
