@@ -32,7 +32,8 @@ Case: https://www.ebay.co.uk/itm/404972147296?var=675019102993
 PCB prototype board 5x7cm: https://www.ebay.co.uk/itm/265204441812?var=565078226213  
 Data sent 16s intervals    
 See Wiring.docx below:      
-[MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)  
+[MPU_Wiring.docx](https://github.com/user-attachments/files/21186516/MPU_Wiring.docx)
+
 
 ![TX_inside_annotated](https://github.com/user-attachments/assets/fa08e3d8-2043-4f14-9871-b44c54c929a8)
 ![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)     
