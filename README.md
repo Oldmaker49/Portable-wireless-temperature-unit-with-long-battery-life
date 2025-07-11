@@ -17,18 +17,20 @@ TRANSMITTER
 
 
 
-MPU: Arduino Pro-Mini 3.3v Modified as follows:- 
-MPU power led removed, onboard voltage regulator replaced with MCP1700 3.3v Low drop-out low quiecent current 3,3v voltage regulator.
-Regulator quiescent current 1.6uA, Droppout voltage typically 0.15V.
-See Wiring.docx below:
-Wireless transmiiter: NRF24 + PA - Channel 110
-Battery 3xAAA
-100uF electrolytic capacitor
-Data sent 16s intervals
+MPU: Arduino Pro-Mini 3.3v Modified as follows:-   
+MPU power led removed, onboard voltage regulator replaced with MCP1700 3.3v Low drop-out low quiecent current 3,3v voltage regulator.  
+Regulator quiescent current 1.6uA, Droppout voltage typically 0.15V.  
+Wireless transmiiter: NRF24 + PA - Channel 110  
+Battery 3xAAA  
+100uF electrolytic capacitor  
+Data sent 16s intervals  
+See Wiring.docx below:      
+[MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)
+
 ![TX_inside_annotated](https://github.com/user-attachments/assets/fa08e3d8-2043-4f14-9871-b44c54c929a8)
 ![image](https://github.com/user-attachments/assets/280e2b2f-677c-40ac-84d2-bf7488752700)    
 
-![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
+
 RECEIVER  
 
 MPU: SEEED XIAO SAMD21 (chosen for small size could be any other MPU)  
@@ -37,6 +39,7 @@ Display: OLED 1.3inch I2C SSH1106
 Battery: NOKIA LiPo  (or any other LiPo battery)
 TP4056 charging module  
 on/off slide switch.
+![image](https://github.com/user-attachments/assets/812b92f5-e23f-49f8-b10e-fa21c75316e0)  
 
 
 
@@ -53,7 +56,7 @@ Current taken mpu active = 3.5mA for 5ms
 Current taken mpu active + wireless transmit = 93.5 mA for 2ms  
 4 July 2025 Battery voltage 4.08v - 2 years of continouous operation so far!  
 average current during 16s cycle about 20uA  
-[MPU_Wiring.docx](https://github.com/user-attachments/files/21166246/MPU_Wiring.docx)
+
 
 
 
